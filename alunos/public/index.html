@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html>
-
+  
   <head>
     <title>Learning Platform</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
+  
   <body>
-    <header>
-      <img src="\images\student.png"/>
-      <a>
+    <header class="header-i">
+      <section class="image"> 
+        <img src="\images\student.png" id="student-icon" alt="Student image">
+      </section>
+      <section class="title">
         <h1>Learning Platform</h1>
         <h2>This platform will help you manage your classes</h2>
-      </a>
-      <h1>Our objective</h1>
-      <p>This platform will allow an easy management of <i>units</i> and <i>students</i> saving you <b>time</b> and <b>money</b>.<br>
-      Some of our functionalities:<br>
-      • See the available subjets<br>
-      • Grade a student</p>
+      </section>
     </header>
-    <nav>
-      <a href="units.html">See available units and students</a> | <a href="grading.html">Grade a student</a>
-      <p><a href="https://www.dges.gov.pt/">DGES</a> | <a href="https://www.iade.europeia.pt/">IADE</a></p>
-      <a href="#contacts">Contacts</a>
+    
+    <nav class="grid-nav">
+      <section class="nav-links">
+        <p><a href="units.html">See available units and student</a></p>
+        <p><a href="grading.html">Grade a student</a></p>
+        <p><a href="#contacts">Contacts</a></p>
+      </section>
     </nav>
-    <main>
-    <h1>Description</h1>
+    
+    <section class="grid-sites">
+      <section class="sites-links">
+        <p><a href="https://www.dges.gov.pt/">DGES</a> | <a href="https://www.iade.europeia.pt/">IADE</a></p>
+      </section>
+    </section>
+
+    <main class="main">
+     <h1>Our objective</h1>
+     <p>This platform will allow an easy management of <i>units</i> and <i>students</i> saving you <b>time</b> and <b>money</b>.<br>
+      Some of our functionalities:<br>
+      <li>See the available subjets</li>
+      <li>Grade a student</li>
+    <h2>Description</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget blandit turpis. Sed in semper orci. Phasellus facilisis turpis eu libero facilisis consequat sit amet non felis. Maecenas efficitur, mauris quis ornare aliquam, mi quam egestas neque, vel placerat quam dui ac tortor. Cras lobortis elit eget mi condimentum, nec congue massa efficitur. Curabitur eget odio efficitur diam posuere fringilla a nec libero. Nunc ac magna vitae justo porttitor vestibulum eu vitae leo. Nam consectetur, nibh in tincidunt congue, nulla velit malesuada tortor, eget volutpat nulla justo nec nisl. Pellentesque ut posuere nulla, vitae viverra ex. Cras dictum ullamcorper condimentum. Mauris sed velit ac lacus varius egestas. Aliquam id sapien varius, eleifend lorem in, tincidunt augue. Maecenas posuere mi sed velit fermentum accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
     <p>Aenean quis magna in tortor interdum vestibulum. Maecenas massa urna, imperdiet sit amet molestie elementum, tincidunt sed mi. Sed tristique, ante vel tincidunt dignissim, diam turpis imperdiet ligula, id ullamcorper nunc sapien at ipsum. Duis scelerisque eros nisl. Vivamus placerat nec leo eu auctor. Nunc sed volutpat enim. Nullam laoreet tellus pulvinar quam ornare, vitae hendrerit nunc mollis. Maecenas ultrices neque vel orci pellentesque malesuada. Proin feugiat massa orci, at varius sem dictum at. Proin eu pharetra neque. Proin pulvinar elit ac dignissim sodales. Mauris quis libero lacus. Proin vehicula eu eros vitae luctus.</p>
     <p>Aliquam semper risus tristique odio tristique, non ultricies lectus placerat. Suspendisse pharetra ligula risus, quis aliquam odio pulvinar vel. Aliquam erat volutpat. Suspendisse venenatis justo eros, sit amet facilisis nisl scelerisque id. Sed egestas vehicula dolor vitae volutpat. Sed molestie et massa sed feugiat. Suspendisse nec diam ac nisl consectetur dapibus a ac sem. Nam in dui et diam sodales pretium a eu magna. Curabitur orci eros, cursus at magna ac, ultrices mattis dolor. Vestibulum ultrices imperdiet magna ac malesuada. Suspendisse eget libero iaculis neque lobortis vehicula. Proin a nibh nec mi fermentum finibus ac eget turpis. Sed a enim vitae arcu accumsan tempor.</p>
@@ -31,12 +45,16 @@
     <p>Suspendisse pulvinar dolor a purus dapibus pretium. Integer vel fermentum diam. Morbi sed metus ut ipsum vehicula volutpat. Pellentesque a molestie sem, consectetur ultrices nisl. Mauris at leo sed odio fermentum iaculis eu ac enim. Ut vitae interdum nunc. Nullam nec lorem et tortor pulvinar maximus id id lectus. Duis viverra dignissim euismod. Nulla imperdiet dolor ipsum, a pulvinar dolor tempus sit amet. Phasellus enim urna, tincidunt convallis purus sed, semper luctus nisl. Ut malesuada leo ac semper condimentum. In a elementum ex, in rutrum tortor. Proin convallis eros nibh, non ornare diam maximus vel. Suspendisse at eros sit amet magna feugiat mollis non eget lectus. Curabitur vitae turpis semper, scelerisque quam sit amet, imperdiet lectus. Vivamus non tortor iaculis, posuere enim sit amet, auctor elit.</p>
     <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ac egestas ligula. Nullam tristique dolor at nunc lobortis interdum. Sed in porta tortor. Duis scelerisque enim at elit scelerisque mollis. Aenean vitae magna eget orci sollicitudin fringilla in eget nulla. Phasellus semper tincidunt pellentesque. Nulla ac felis in lorem laoreet egestas. Ut eget orci a neque egestas facilisis. Suspendisse ac ullamcorper sem. In vitae condimentum neque.</p>
     </main>  
+    
     <aside>
       </aside>
-    <footer>
+    
+      <footer>
       <div id="contacts"></div>
       <p>Contact us by email (<a href="mailto:admin@ensino.pt">admin@ensino.pt</a>) or telephone (<a href="tel:2112312312">2112312312</a>)</p>
+   
     </footer>
+  
   </body>
 
 </html>

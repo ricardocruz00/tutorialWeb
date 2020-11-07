@@ -1,8 +1,76 @@
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.header-i, footer {
+  display: flex;
+  background-color: rgb(20, 120, 187);
+  color: white;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.image{
+  flex:1;
+  padding: 20px;
+}
+
+#student-icon {
+  width: 200px;
+}
+
+.title {
+  flex:8;
+  padding-right: 50px;
+  text-align: center;
+  }
+  
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+  
+.sites-links {
+  color: rgb(20, 120, 187);
+  text-decoration: none;
+}
+
+.main {
+  color: #333333;
+}
+
+.grid-nav {
+  grid-area:nav;
+  background-color: rgb(20, 120, 187);
+  color: white;
+  padding: 10px;
+  flex:1;
+  line-height: 5px;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.grid-sites {
+  grid-area:sites;
+  display:flex;
+  flex:1;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(20, 120, 187);
+  flex-direction: column;
+  line-height: 0.8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding-left: 10px;
+}
+
 a {
-  color: #00B7FF;
+  color: #ad561c;
 }
