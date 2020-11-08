@@ -4,21 +4,29 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.header-i, footer {
+a {
+  color: #1932bb;
+} 
+
+.header-flex, footer {
   display: flex;
   background-color: rgb(20, 120, 187);
   color: white;
   align-items: center;
-  padding-left: 100px;
 }
 
 .image{
   flex:1;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 50px;
 }
 
 #student-icon {
   width: 200px;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .title {
@@ -26,23 +34,41 @@ body {
   padding-right: 50px;
   text-align: center;
   }
+
+.grid-header {
+  grid-area:h;
+}
   
 .nav-links {
-  color: white;
   text-decoration: none;
+  color: white;
 }
   
 .sites-links {
-  color: rgb(20, 120, 187);
   text-decoration: none;
+  color: rgb(20, 120, 187);
 }
 
 .main {
   color: #333333;
 }
 
+.grid-main {
+  grid-area:m;
+}
+
+.footer-flex {
+  color: white;
+  padding: 7px;
+}
+
+.grid-footer {
+  grid-area:f;
+  padding-left: 80px;
+}
+
 .grid-nav {
-  grid-area:nav;
+  grid-area:n;
   background-color: rgb(20, 120, 187);
   color: white;
   padding: 10px;
@@ -55,8 +81,13 @@ body {
   margin-right: 10px;
 }
 
-.grid-sites {
-  grid-area:sites;
+.flex-sites {
+  text-decoration: none;
+  color:rgb(20, 120, 187);
+}
+
+.grid-aside{
+  grid-area:s;
   display:flex;
   flex:1;
   background-color: white;
@@ -71,6 +102,15 @@ body {
   padding-left: 10px;
 }
 
-a {
-  color: #ad561c;
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-areas:
+  'h h h'
+  'n m s'
+  'f f f';
+}
+
+.grid-main-units {
+  grid-area:m;
 }
